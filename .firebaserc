@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "cataloge-games": {
+      "hosting": {
+        "Random": [
+          "cataloge-games"
+        ]
+      }
+    }
+  }
+}
