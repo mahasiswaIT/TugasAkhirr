@@ -17,10 +17,6 @@
           <mat-label>Password</mat-label>
           <input matInput [type]="hide ? 'password' : 'text'" placeholder="Your password" [(ngModel)]="user.password" required>
         </mat-form-field>
-        <mat-form-field class="uk-width-1-1">
-          <mat-label>Re-type Password</mat-label>
-          <input matInput [type]="hide ? 'password' : 'text'" placeholder="Your password" [(ngModel)]="user.password" required>
-        </mat-form-field>
         <div class="uk-flex uk-flex-right">
             <div class="uk-width-expand">
               <button mat-button routerLink="/login">I have an account</button>
